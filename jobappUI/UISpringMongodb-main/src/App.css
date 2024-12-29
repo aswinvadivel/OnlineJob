@@ -1,0 +1,46 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.card {
+  padding: 3%;
+  margin: 1%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: violet;
+}
+
+.card-description {
+  color: #585858;
+  margin-top: 1%;
+}
+
+.card-experience {
+  margin-top: 1%;
+}
+
+.card-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.card-skill {
+  background-color: lightgray;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
